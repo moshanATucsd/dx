@@ -22,7 +22,7 @@ You can use DX from the [web application](https://dx.tenzar.com) or from the Ten
 
 ### How to use it - Hello World:
 
-DX enables you deploy an instance in the cloud with a Docker image and any of your files (collectively "a computation") with a single flexible command: ``tt deploy --type c4 --image tensorflow datasets code``
+DX enables you to deploy an instance in the cloud with a Docker image and any of your files (collectively "a computation") with a single flexible command: ``tt deploy --type c4 --image tensorflow datasets code``
 
 This command does the following:
 - Deploys a `c4` instance with 16 CPUs and 30 GB of memory
@@ -34,12 +34,12 @@ You then have full admin/root access to this container via SSH: ``tt connect``
 This command automatically connects you to your running container. Once connected, you have full control of your container to run any workload at `c4` scale (16 CPUs and 30 GB of memory), with your files and data readily available within it.
 
 
-To learn more about how to use Tenzar DX, visit [www.tenzar.com](www.tenzar.com/docs)
+To learn more about how to use Tenzar DX, visit [www.tenzar.com](https://www.tenzar.com/docs)
 
 -----
 ### Getting Started
 
-- Create your organization account at [tenzar.com](www.tenzar.com)
+- Create your organization account at [tenzar.com](https://www.tenzar.com)
 - Install the Tenzar Terminal app from [here](https://dx.tenzar.com/docs/install) and login
 - Import your data into DX from a URL or upload it directly from a computer:
   ``$ tt upload /Users/octo/myData``
