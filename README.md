@@ -34,7 +34,7 @@ You then have full admin/root access to this container via SSH: ``tt connect``
 This command automatically connects you to your running container. Once connected, you have full control of your container to run any workload at `c4` scale (16 CPUs and 30 GB of memory), with your files and data readily available within it.
 
 
-To learn more about how to use Tenzar DX, visit [www.tenzar.com](https://www.tenzar.com/docs)
+To learn more about how to use Tenzar DX, visit [www.tenzar.com](https://www.tenzar.com)
 
 -----
 ### Getting Started
