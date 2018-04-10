@@ -34,7 +34,7 @@ You then have full admin/root access to this container via SSH: ``tt connect``
 This command automatically connects you to your running container. Once connected, you have full control of your container to run any workload at `c4` scale (16 CPUs and 30 GB of memory), with your files and data readily available within it.
 
 
-To learn more about how to use Tenzar DX, visit [www.tenzar.com](https://www.tenzar.com)
+To learn more about how to use Tenzar DX, visit [tenzar.com](https://www.tenzar.com)
 
 -----
 ### Getting Started
@@ -60,23 +60,23 @@ To work with the others in your organization or other organizations, invite them
 
 
 #### Documentation
-If you'd like to improve our documentation please follow the contributing guideline for prioritizing changes. If you find an error, please contact us directly or open an issue.
+If you'd like to improve our documentation please follow the contributing guidelines for prioritizing changes. If you find an error, please contact us directly or open an issue.
 
-##### Documentation Contributing Guideline:
+##### Documentation Contributing Guidelines:
 1) Accurate: Does the existing documentation contain errors? </br>
 2) Current: Is the existing documentation outdated? </br>
-3) Clear: Is the existing documentation well explained and documented ?
+3) Clear: Is the existing documentation well explained and documented?
 
 
 
 #### Security and Privacy
-Tenzar recognizes the importance of security and privacy for data and computations. We encourage responsible disclosure of security vulnerabilities by contacting Tenzar at <b>security@tenzar.com</b>
+Tenzar recognizes the importance of security and privacy for data and computations. We encourage responsible disclosure of security vulnerabilities by contacting Tenzar at <b>security@tenzar.com</b>.
 
 ##### Responsible Disclosure Guideline:
 
 1) Notify us of any security vulnerability at <b>security@tenzar.com</b>. <br/>
 2) Provide us a reasonable amount of time to fix the issue before disclosing it elsewhere. <br/>
-3) Make a no less than reasonable, conscious, good-faith, effort to not leak or destroy any information, affect software operations, or cause damage to other accounts. <br/>
+3) Make a no less than reasonable, conscious, good-faith, effort to not leak or destroy any information, affect software operations, or cause damage to other accounts.
 
 ##### Rewards
 
