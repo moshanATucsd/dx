@@ -1,7 +1,7 @@
 <h1 class="title">$ tt import &lt;repository name or url&gt; [parameters]</h1>
 
 #### Description
-Imports a public DockerHub image, or a file from a URL, or a shared DX volume or image to your account.
+Imports a public DockerHub image, or a file from a URL, or a shared DX volume or image to your organization.
 
 There are two types of imports: external and internal.
 - External imports come from the internet into DX, such as from DockerHub or a URL.

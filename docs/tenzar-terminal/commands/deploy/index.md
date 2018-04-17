@@ -1,7 +1,7 @@
 <h1 class="title">$ tt deploy [parameters] [volume(s)]</h1>
 
 #### Description
-Launches a virtual machine instance with the specified parameters, such as volume(s), image, instance type, and storage.
+Launches a virtual machine instance with the specified parameters, such as volume(s), image, instance type, and extra storage.
 
 Deployments take a few minutes to launch depending on the size of image, volume(s), and type of instance. You can check the status of the deployment with `tt monitor`. You are allowed to connect to the instance once its status is `Running`.
 

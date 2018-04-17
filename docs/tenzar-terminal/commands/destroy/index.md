@@ -1,7 +1,7 @@
 <h1 class="title">$ tt destroy &lt;ID&gt;</h1>
 
 #### Description
-Destroys a running instance.
+Terminates and wipes a running instance.
 
 Deployments are ephemeral. By 'ephemeral' we mean that the mounted volumes, memory, active processes, etc., within the instances are wiped when destroyed. Destroying a deployment does not delete the actual volume(s) or image stored in DX, only the copy used in the deployment. In order to save files that you do not want destroyed when running `tt destroy`, use `tt save` to save a file or folder in the `/tenzar_volumes` folder back to DX.
 
