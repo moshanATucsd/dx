@@ -6,7 +6,7 @@ This 101 guide will walk through the basic end-to-end usage of the Tenzar Termin
 
 All commands in the Tenzar Terminal have the following structure:
 
-<img src="https://assets.tenzar.com/app/img-commands.png" alt="Command" width="100%" style="border-radius: 3px; padding-bottom: 20px">
+<img src="https://assets.tenzar.com/app/img-commands.png" alt="Command" width="100%" style="border-radius: 3px; margin-bottom: 20px">
 
 - Angle brackets `< >` indicate required parameters.
 - Square brackets `[ ]` indicate optional parameters.

@@ -13,7 +13,7 @@ Deployments are ephemeral. By 'ephemeral' we mean that the mounted volumes, memo
 | Flag, Name | Description | Required |
 |---------|-------------|-------------|
 | `-i, --image` | Image to use in deployment. | - |
-| `-t, --type` | [Instance type](/computing) to use in deployment.| - |
+| `-t, --type` | [Instance type](https://dx.tenzar.com/computing) to use in deployment.| - |
 | `-s, --space` |	Amount of additional disk space in GiBs. Every deployment comes with 20 GiB of free disk space. |	- |
 | `-n, --name` |	Names the deployment.| - |
 | `volume(s)` | Volume(s) to use in deployment.| - |

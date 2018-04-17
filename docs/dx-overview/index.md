@@ -17,8 +17,8 @@ An **Image** is the base computing environment of an instance. An image is a bun
 **Volumes** are how data and files are stored on DX. A volume simply contains files and folders uploaded from your computer. When you deploy an instance, you can specify exactly which volumes you want to mount on your instance. A volume might contain code scripts or a large dataset. Volumes are flexible enough to store everything you need to run your computations.
 
 <center>
-  <img src="https://assets.tenzar.com/app/img-flow.png" alt="Tenzar DX" width="600" >
+  <img src="https://assets.tenzar.com/app/img-flow.png" alt="Tenzar DX" width="680" >
 </center>
 <hr>
 
-[next](/docs/tenzar-terminal/index.md)
+[NEXT →](/docs/cli)

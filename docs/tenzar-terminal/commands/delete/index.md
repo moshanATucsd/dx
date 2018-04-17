@@ -3,7 +3,7 @@
 #### Description
 Moves to the trash a volume or image from your Tenzar DX organization.
 
-Volumes and images in the trash have 30 days until they are automatically erased. During the 30 days, you have the ability to recover or empty your trash items from the [trash dashboard](dx.tenzar.com/trash).  
+Volumes and images in the trash have 30 days until they are automatically erased. During the 30 days, you have the ability to recover or empty your trash items from the [trash dashboard](https://dx.tenzar.com/trash).  
 
 #### Parameters
 | Flag, Name | Description | Required |
