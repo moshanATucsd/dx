@@ -8,7 +8,7 @@ Volumes and images in the trash have 30 days until they are automatically erased
 #### Parameters
 | Flag, Name | Description | Required |
 |---------|-------------|-------------|
-| `volume or image`  | Name of volume or image to delete	.	     |  ✓ |
+| `volume or image`  | Name of volume or image to delete.	     |  ✓ |
 | `-i, --image`  | Flag to delete an image.	     |  - |
 
 #### Usage

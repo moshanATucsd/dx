@@ -1,6 +1,6 @@
 ### Usage 101: Tenzar Terminal
 
-<i>The following tutorial teaches you how to use the Tenzar Terminal on macOS or Linux computers. Click [here](https://dx.tenzar.com) to download and install Tenzar Terminal.</i>
+<i>The following tutorial teaches you how to use the Tenzar Terminal on macOS or Linux computers. Click [here](https://dx.tenzar.com/install) to download and install Tenzar Terminal.</i>
 
 This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars.
 

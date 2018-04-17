@@ -4,7 +4,7 @@
 #### Introduction
 This guide will introduce you to the Tenzar DX platform and to the Tenzar Terminal.
 
-> If you have any questions along the way, please refer to the documentation or contact our [phone support](https://dx.tenzar.com/support).
+> If you have any questions along the way, please refer to the documentation or contact our [support](https://dx.tenzar.com/support).
 
 ### Overview
 
