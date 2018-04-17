@@ -28,6 +28,8 @@ Tenzar Terminal works on OS X El Capitan 10.11 and newer macOS releases, as well
 
 [Download](https://dx.tenzar.com/install) the Tenzar.pkg and double-click it to start the install process.
 
+<img src="https://assets.tenzar.com/app/img-tenzar-app.png" alt="Tenzar Terminal tt" height="100">
+
 When the installation completes, the Tenzar octopus appears in the top status bar and is the `tt` command is now available in the terminal.
 
 <img src="https://assets.tenzar.com/docs/img-install-menubar.png" alt="menubar" width="350" style="margin-bottom:20px">

@@ -1,5 +1,7 @@
 <img src="https://assets.tenzar.com/web/black-octo.png" alt="Tenzar DX" height="100" >
 
+#### Visit the latest Tenzar DX Docs at: [tenzar.com/docs](https://www.tenzar.com/docs)
+
 # Tenzar DX
 
 ### Welcome to Tenzar DX.
@@ -14,7 +16,7 @@ Enterprise and teams use DX as their computing platform to store data, collabora
 - Scientific Computing
 - Data and Compute Collaboration
 
-You can use DX from the [web application](https://dx.tenzar.com) or from the Tenzar Terminal desktop application.
+You can use DX from the [web dashboard](https://dx.tenzar.com) or from the Tenzar Terminal desktop application.
 
 
 ### Tenzar Terminal
@@ -29,7 +31,7 @@ This command does the following:
 - Starts your Docker image as container in the instance
 - Transfers your `datasets` and `code` folders into the container
 
-You then have full admin/root access to this container via SSH: ``tt connect``
+You then have full admin/root access to this container via SSH: `tt connect`
 
 This command automatically connects you to your running container. Once connected, you have full control of your container to run any workload at `c4` scale (16 CPUs and 30 GB of memory), with your files and data readily available within it.
 
@@ -40,7 +42,7 @@ To learn more about how to use Tenzar DX, visit [tenzar.com](https://www.tenzar.
 ### Getting Started
 
 - Create your organization account at [tenzar.com](https://www.tenzar.com)
-- Install the Tenzar Terminal app from [here](https://dx.tenzar.com/docs/install) and login
+- Install the Tenzar Terminal app from [here](https://dx.tenzar.com/install) and login
 - Import your data into DX from a URL or upload it directly from a computer:
   ``$ tt upload /Users/octo/myData``
 - Import a Docker image directly from DockerHub:
