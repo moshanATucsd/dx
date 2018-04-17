@@ -50,7 +50,7 @@ Feel free to watch the video to get a feel of what we are going to be working wi
 
 To upload the selfdriving code as a DX volume run:
 
-```bash
+```text
 $ tt upload ~/Desktop/selfdriving
 
 Uploading 'selfdriving' as volume 'selfdriving'.
@@ -61,7 +61,7 @@ Upload complete.
 
 Now upload the video in the same way:
 
-```bash
+```text
 $ tt upload ~/Desktop/video.mp4
 
 Uploading 'video.mp4' as volume 'video.mp4'.
@@ -127,7 +127,7 @@ This starts a terminal SSH session inside your deployed instance. That means you
 
 You can find the volumes that you added to the deployment under the `/tenzar_volumes` directory.
 
-```bash
+```text
 root@78a8675cb3e9:/ cd /tenzar_volumes/
 ```
 **Hint:** you are connected to an instance when your terminal prompt begins with `root@`.
