@@ -98,11 +98,11 @@ If the image is still importing, just check back in a couple of minutes.
 
 Now that the image, your code, and your data are on DX, you are ready to start a deployment. For this demo, we are going to use the following command:
 
-```bash
+```text
 $ tt deploy --image tenzar-tutorial --type e1 video.mp4 selfdriving
 ```
 
-This will deploy an E1 [instance of type](/computing) with the image `tenzar-tutorial` and the `video.mp4` file and `selfdriving` folder as volumes. You can check the status of your deployment with:
+This will deploy an E1 [instance of type](/docs/instances) with the image `tenzar-tutorial` and the `video.mp4` file and `selfdriving` folder as volumes. You can check the status of your deployment with:
 
 ```bash
 $ tt monitor
