@@ -54,8 +54,7 @@ To learn more about how to use Tenzar DX, visit [tenzar.com](https://www.tenzar.
 - Within the instance, find your data at `/tenzar_volumes`
 - Run your workload.
 
-To work with the others in your organization or other organizations, invite them or share your data with a simple link.
-
+You can invite other members to your organization, or share data with other organizations with just a link.
 
 ------
 ### Contributing
