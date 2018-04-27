@@ -4,7 +4,7 @@
 Tenzar DX is a computing system with a comprehensive set of features that allow users to quickly adopt cloud computing, share data, and run computational workloads in minutes.
 
 
-#### Running a computation
+#### Running computations
 
 DX makes it easy to deploy a workload to the cloud by automatically launching your instance, running your container, and transferring your data.
 
