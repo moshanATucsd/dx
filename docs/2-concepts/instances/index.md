@@ -2,7 +2,7 @@
 
 An instance is a blank-slate server ("machine") used by DX to deploy and run your workloads. DX supports various instance types comprised of varying combinations of CPU, memory, GPUs, disk space, and networking capacity to give you the flexibility to choose the most appropriate computing resources for your workloads. 
 
-#### Why Instances
+#### Why Instances?
 DX runs your workloads in independent and dedicated instances that give you 100% of the computing resources. When you deploy an instance, DX automatically creates the instance for you, installs a *copy* of your selected Docker image, and *copies* any selected volumes into it. Instances take approximately 5-minutes to prepare, as DX must start a blank-slate server, load it with your image, run your container, transfer your volumes, and then provide you with access.
 
 DX treats instances as transactional processes: DX launches your instance, you run your workload, and then you delete the instance. Unlike traditional servers that are designed to run 24/7 - and lead to high running costs - DX instances are meant to be used only for the duration of your workload. Once you are done using an instance, you delete it. This transactional nature makes instances "ephemeral" (i.e. used only once and discarded).
