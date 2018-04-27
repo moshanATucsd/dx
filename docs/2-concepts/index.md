@@ -17,7 +17,7 @@ An **Image** is a bundle of frameworks, libraries, and an operating system used 
 [image of image]
 
 #### Volumes
-**Volumes** are how data is stored on DX. A volume simply contains the files and folders you upload or import. You can share volumes with others, delete volumes you don't need, and deploy volumes to your computations. When you deploy an instance, you can specify exactly which volumes you want to include, so that your files are automatically transferred to it. Volumes are flexible enough to store everything you need to run your computations. A single volume can be larger than 1TB in size.
+**Volumes** are how data is stored on DX. A volume simply contains the files and folders you upload or import. You can share volumes with others, delete volumes you don't need, and deploy volumes to your computations. When you deploy an instance, you can specify exactly which volumes you want to include, so that your files are automatically transferred to it. Volumes are flexible enough to store everything you need to run your computations. A single volume can be larger than 1 TB in size.
 
 [image of volume]
 
