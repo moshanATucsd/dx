@@ -1,7 +1,7 @@
 
 ### What you can do with Tenzar DX
 
-Tenzar DX is a computing system with a comprehensive set of features that allows users to quickly adopt cloud computing, share data, and run computational workloads in minutes.
+Tenzar DX is a computing system with a comprehensive set of features that allow users to quickly adopt cloud computing, share data, and run computational workloads in minutes.
 
 
 #### Running a computation
