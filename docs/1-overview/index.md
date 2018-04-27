@@ -16,7 +16,7 @@ Tenzar DX is not another cloud provider and it is not hosted on data centers own
 The Tenzar DX system is powered by the DX Compute Engine, which is responsible for accelerating data transfers and optimizing the performance of data center resources.
 
 
-### Who is it for
+### Who it's for
 
 DX is a seamless high-performance computing system for data scientists, researchers, IT teams, and developers. DX is designed to have a familiar interface that is easy to learn and easy to use. It allows you to run workloads in the cloud or other infrastructure without APIs, SDKs, or other complex integrations.
 
