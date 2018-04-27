@@ -67,6 +67,6 @@ Members that you add to your team can use any data shared across your team, as w
 
 #### Uploading data
 
-DX makes it easy to upload large data through the Tenzar Terminal's fast and efficient uploader. The uploader is robust to network errors and failures, meaning if you lose internet connection, you can resume the upload from where you left off, and the uploader will ensure no data was lost.
+DX makes it easy to upload large data through the Tenzar Terminal's fast and efficient uploader. The uploader is robust to network errors and failures; if you lose internet connection during an upload, you can later resume the upload from where it left off, and the uploader will ensure no data was lost.
 
 DX supports terabyte size single files or uploads that can be stopped and resumed at your convenience.
