@@ -1,10 +1,14 @@
 
 ### What you can do with Tenzar DX
 
-Tenzar DX is a computing system with a comprehensive set of features that allows users to quickly adopt cloud computing, share data, and run computational workloads in minutes.
+Tenzar DX is a computing system with a comprehensive set of features that allow users to quickly adopt cloud computing, share data, and run computational workloads in minutes.
 
 
+<<<<<<< HEAD
 #### Run computations
+=======
+#### Running computations
+>>>>>>> 7e125bb0fa933ca2bca793eb4dd95dfafc4d8618
 
 DX makes it easy to deploy a workload to the cloud by automatically launching your instance, running your container, and transferring your data.
 
@@ -67,6 +71,6 @@ Members that you add to your team can use any data shared across your team, as w
 
 #### Upload data
 
-DX makes it easy to upload large data through the Tenzar Terminal's fast and efficient uploader. The uploader is robust to network errors and failures, meaning if you lose internet connection, you can resume the upload from where you left off, and the uploader will ensure no data was lost.
+DX makes it easy to upload large data through the Tenzar Terminal's fast and efficient uploader. The uploader is robust to network errors and failures; if you lose internet connection during an upload, you can later resume the upload from where it left off, and the uploader will ensure no data was lost.
 
 DX supports terabyte size single files or uploads that can be stopped and resumed at your convenience.
