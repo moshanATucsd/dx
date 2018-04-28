@@ -18,6 +18,8 @@ This is a list of all of the terms and language used throughout the documentatio
 
 **Flag** <br/> An optional, shorthand notation, used to pass specific options to a command.
 
+**GB vs GiB** <br/> 10^9 bytes (1,000,000,000 bytes) vs 2^30 (1,073,741,824 bytes)
+
 **Images** <br/> Computing environments imported from DockerHub or a URL, or uploaded directly from Tenzar Terminal with the --image flag.
 
 **Import** <br/> The process of importing a DockerHub image or any file into Tenzar as an Image or Volume.

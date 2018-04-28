@@ -23,10 +23,11 @@ You can store as much data as you would like in DX and you only pay for the amou
 Your first 1 GB of storage is always free.
 
 
-#### Data Throughput Pricing
+#### Smart Data Throughput Pricing
 
-Data throughput is calculated as the amount of data that you move into, out of, and through DX. There are no limits for data throughput. Data throughput is calculated per GB and billed per month. Sharing and importing data with other Tenzar DX accounts does not count towards billable throughput, since it's already within Tenzar DX.
+Smart Data throughput is calculated as the amount of new data that you move into, out of, and through DX. There are no limits for data throughput. Smart Data throughput is calculated per GB and billed per month. Sharing and importing data with other Tenzar DX accounts does not count towards billable throughput, since it's already within Tenzar DX.
 
+Repeated uploads or imports with the same data are automatically detected and not counted towards your Smart Data Throughput. 
 
 |Data Throughput | Per GB|
 |--------|-------|
