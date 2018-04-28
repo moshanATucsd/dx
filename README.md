@@ -1,9 +1,36 @@
-<img src="https://assets.tenzar.com/web/black-octo.png" alt="Tenzar DX" height="100" >
-
-#### Visit the latest Tenzar DX Docs at: [tenzar.com/docs](https://www.tenzar.com/docs)
+<div align="center">
+  <img src="https://assets.tenzar.com/web/black-octo.png" height="300" alt="Tenzar DX">
+</div>
 
 # Tenzar DX
 
+#### Visit the latest Tenzar DX Docs at: [tenzar.com/docs](https://www.tenzar.com/docs)
+
+---
+### Contributing to the DX Documentation
+
+If you'd like to improve our documentation please follow the contributing guidelines for prioritizing changes.
+
+##### To make changes to the documentation do the following:
+1. Click on the Fork button in Github near the top right corner to create a copy of the dx repository in your Github account.
+
+2. Make your edits and commit them to your "forked" copy.
+
+3. When you are ready to tell us about your changes, click New Pull Request in the official DX repository.
+
+4. That's it!
+
+We will review your changes and if they are valuable, we will add them to the official DX docs.
+
+##### Documentation Contributing Guidelines:
+1) Accurate: Does the existing documentation contain errors? </br>
+2) Current: Is the existing documentation outdated? </br>
+3) Clear: Is the existing documentation well explained and documented?
+
+
+If you encounter errors or bugs throughout your usage, please contact us directly or open an issue. See our [responsible disclosure guidelines](#disclosure).
+
+---
 ### Welcome to Tenzar DX.
 DX is a seamless high-performance computing platform for data scientists, researchers, IT admins, and developers.
 Use DX if you are looking to launch computations or workloads to the cloud, share data instantly with other teams, and store an unlimited number of private Docker images ready for use. DX is a multi-purpose, language-agnostic, computing platform capable of running small and terabyte scale workloads.
@@ -16,7 +43,7 @@ Enterprise and teams use DX as their computing platform to store data, collabora
 - Scientific Computing
 - Data and Compute Collaboration
 
-You can use DX from the [web dashboard](https://dx.tenzar.com) or from the Tenzar Terminal desktop application.
+You can use DX from the [web Dashboard](https://dx.tenzar.com) or from the Tenzar Terminal desktop application.
 
 
 ### Tenzar Terminal
@@ -41,7 +68,7 @@ To learn more about how to use Tenzar DX, visit [tenzar.com](https://www.tenzar.
 -----
 ### Getting Started
 
-- Create your organization account at [tenzar.com](https://www.tenzar.com)
+- Create your account at [tenzar.com](https://www.tenzar.com)
 - Install the Tenzar Terminal app from [here](https://dx.tenzar.com/install) and login
 - Import your data into DX from a URL or upload it directly from a computer:
   ``$ tt upload /Users/octo/myData``
@@ -54,23 +81,10 @@ To learn more about how to use Tenzar DX, visit [tenzar.com](https://www.tenzar.
 - Within the instance, find your data at `/tenzar_volumes`
 - Run your workload.
 
-You can invite other members to your organization, or share data with other organizations with just a link.
+You can invite other members to your account, or share data with other organizations with just a link.
 
 ------
-### Contributing
-
-
-#### Documentation
-If you'd like to improve our documentation please follow the contributing guidelines for prioritizing changes. If you find an error, please contact us directly or open an issue.
-
-##### Documentation Contributing Guidelines:
-1) Accurate: Does the existing documentation contain errors? </br>
-2) Current: Is the existing documentation outdated? </br>
-3) Clear: Is the existing documentation well explained and documented?
-
-
-
-#### Security and Privacy
+### <a name="disclosure"></a> Security and Privacy
 Tenzar recognizes the importance of security and privacy for data and computations. We encourage responsible disclosure of security vulnerabilities by contacting Tenzar at <b>security@tenzar.com</b>.
 
 ##### Responsible Disclosure Guideline:
