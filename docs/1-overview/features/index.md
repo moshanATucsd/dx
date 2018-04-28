@@ -53,7 +53,7 @@ DX makes it easy to run Docker containers on an instance by automatically handli
 
 DX enables you to securely store as much data as you need. DX automatically secures and encrypts your data at rest and in transit, while also expanding the size of your storage capacity as needed.
 
-DX offers advanced, cost-reducing, data storage services available through on-demand through our professional team.
+DX offers advanced, cost-reducing, data storage services available through on-demand through our [professional team](/sales).
 
 #### Privately store Docker images
 

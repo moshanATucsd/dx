@@ -1,11 +1,11 @@
 
 ### Understanding Tenzar DX
 
-The Tenzar DX platform revolves around three core concepts: **Deployments**, **Images**, and **Volumes**.
+The Tenzar DX system revolves around three core concepts: **Deployments**, **Images**, and **Volumes**.
 
 
 #### Deployments
-All computations that you run on DX begin with launching a **Deployment**. A deployment is an ephemeral instance ("a server") in the cloud that you use to run your workload. When you start your deployment, you select the type of instance, a Docker image, and any data you'd like to include. When your deployment is ready for use, you can access it through a standard terminal connection.
+All computations that you run on DX begin with launching a **Deployment**. A deployment is an ephemeral instance ("a server") running a container in the cloud that you use to run your workload. When you start your deployment, you select the type of instance, a Docker image, and any data you'd like to include. When your deployment is ready for use, you can access it through a standard terminal connection.
 
 [image of deployment]
 
@@ -17,7 +17,7 @@ An **Image** is a bundle of frameworks, libraries, and an operating system used 
 [image of image]
 
 #### Volumes
-**Volumes** are how data is stored on DX. A volume simply contains the files and folders you upload or import. You can share volumes with others, delete volumes you don't need, and deploy volumes to your computations. When you deploy an instance, you can specify exactly which volumes you want to include, so that your files are automatically transferred to it. Volumes are flexible enough to store everything you need to run your computations. A single volume can be larger than 1 TB in size.
+**Volumes** are how data is stored on DX. A volume simply contains the files and folders you upload or import. You can share volumes with others, delete volumes you don't need, and deploy volumes to your computations. When you deploy an instance, you can specify exactly which volumes you want to include, so that your files are automatically transferred to it. Volumes are flexible enough to store everything you need to run your computations. A single volume can be up to 1 TB in size.
 
 [image of volume]
 

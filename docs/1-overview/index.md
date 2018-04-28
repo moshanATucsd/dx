@@ -1,11 +1,27 @@
-### What is Tenzar DX
+<style scoped>
+  .arch-image {
+    padding-top: 20px;
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 992px) {
+      .arch-image {
+          width: 90%;
+      }
+  }
+  </style>
+<span class=""></span>
 
-Tenzar DX is a system for collaborative computing and streamlined deployment of computational workloads in the cloud.
+
+### What is Tenzar DX?
+
+Tenzar DX is a computing system for collaboration and easy deployment of computational workloads in the cloud.
 
 DX is a software layer that runs on top of data centers, abstracting all of the building blocks supplied by cloud infrastructure providers. It provides a universal interface for launching computations, sharing and storing data, collaborating, and more.
 
 <center>
-  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/overview-stack.png" height="500"/>
+  <img class="arc-image" src="https://s3.amazonaws.com/assets.tenzar.com/docs/overview-stack.png" width="500"/>
 </center>
 
 
@@ -16,7 +32,7 @@ Tenzar DX is not another cloud provider and it is not hosted on data centers own
 The Tenzar DX system is powered by the DX Compute Engine, which is responsible for accelerating data transfers and optimizing the performance of data center resources.
 
 
-### Who it's for
+### Who it's for?
 
 DX is a seamless high-performance computing system for data scientists, researchers, IT teams, and developers. DX is designed to have a familiar interface that is easy to learn and easy to use. It allows you to run workloads in the cloud or other infrastructure without APIs, SDKs, or other complex integrations.
 

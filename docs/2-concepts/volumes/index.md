@@ -3,7 +3,7 @@
 Volumes are how data is stored on DX. A volume simply contains the files and folders you upload or import.
 
 #### Why Volumes?
-DX stores your data under the concept of a Volume. Volumes are nothing more than a file or folder stored on DX -- except we call them "Volumes". However, unlike a folder in your computer that you can browse and expand, DX treats your volumes as a singular unit. Packaging your files or folders under a single unit and simplifies the syntax and makes interacting with your data in DX faster and easier.
+DX stores your data under the concept of a Volume. Volumes are nothing more than a file or folder stored on DX -- except we call them "volumes". However, unlike a folder in your computer that you can browse and expand, DX treats your volumes as a singular unit. Packaging your files or folders under a single unit and simplifies the syntax and makes interacting with your data in DX faster and easier.
 
 Wrapping your files and folders as Volumes streamlines collaboration, allowing you to easily reference a single item to run your workloads as opposed to a variety of namespaces or file paths. For example, deploying a volume to an instance is as easy as: `tt deploy myVolume`, or to include more volumes: `tt deploy myVolume1 myVolume2 myVolume3`.
 

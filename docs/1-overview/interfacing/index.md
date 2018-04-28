@@ -2,7 +2,7 @@
 
 There are two ways to interact with DX: a rich graphical web Dashboard accessible at [dx.tenzar.com](https://dx.tenzar.com) and the Tenzar Terminal, a powerful command line interface built for Linux and macOS.
 
-The Dashboard and Tenzar Terminal provide similar functionalities of Tenzar DX. However, there are some actions that are only supported by the Dashboard and there are some other actions that are only supported by the Tenzar Terminal. For example, *uploads*, *downloads*, and *connections* to your deployments are only supported via the Terminal. 
+The Dashboard and Tenzar Terminal provide similar functionalities of Tenzar DX. However, there are some actions that are only supported by the Dashboard and there are some other actions that are only supported by the Tenzar Terminal. For example, *uploads*, *downloads*, and *connections* to your deployments are only supported via the Tenzar Terminal.
 
 #### Dashboard
 
@@ -19,7 +19,7 @@ These are some actions that are only supported from the Dashboard and not the Te
 
 #### Tenzar Terminal (command line)
 
-The Tenzar Terminal is a powerful and flexible native application used to interact with Tenzar DX via a command line. Tenzar Terminal supports x86 Linux and macOS computers.
+The Tenzar Terminal is a powerful and flexible native application used to interact with Tenzar DX via a command line. Tenzar Terminal supports x86 Linux <i class="ion-social-tux" style="font-size: 28px"/> and macOS <i class="ion-social-apple" style="font-size: 28px"/> computers.
 
 > You need the Tenzar Terminal to upload data and connect to your instances.
 
