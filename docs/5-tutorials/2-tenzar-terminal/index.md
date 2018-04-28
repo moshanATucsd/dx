@@ -1,6 +1,6 @@
 ### Tenzar Terminal Tutorial
 
-This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars.
+This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars. Before you begin, make sure you've [installed Tenzar Terminal](https://tenzar.com/docs/cli/install)
 
 #### Login
 
