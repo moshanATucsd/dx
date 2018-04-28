@@ -15,7 +15,7 @@ A deployment is an ephemeral instance ("a server") in the cloud that you use to 
 To launch a deployment, first go to the console in your dashboard. This tutorial will explain each line of the deployment form.
 
 <center>
-  <img src=https://i.imgur.com/RAjYh4i.png" width="450" alt="import from url"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--import-from-url.png" width="450" alt="import from url"/>
 </center>
 <br/>
 
@@ -27,14 +27,14 @@ $ tt deploy --image tensorflow-gpu --type GC1 --name image-rec --storage 150 101
 
 ##### Image
 
-This is the underlying operating system that your deployment will run. You can only select one image and it can not be changed once the deployment is launched. 
+This is the underlying operating system that your deployment will run. You can only select one image and it can not be changed once the deployment is launched.
 
 I want to run a Tensorflow model on a GPU instance, so I'm going to select the `tensorflow-gpu` image that I imported from `tensorflow/tensorflow:latest-gpu`. Only images that were built for GPUs will be able to access the GPU resources of an instance. Most popular computing frameworks already have gpu-enabled images on dockerhub. If you need to use an image that does not come with GPU drivers preinstalled, you'll have to install nvidia-smi on the instance if you want to access GPU resources.
 
 You can also select a default image on the Images page in the dashboard. A default image is 'preselected' to run your deployments in the future. This is purely for convenience and the image can always be changed before deploying. Simply click the menu icon next to the image you want to set as default. A star will appear next to the image name to indicate it's my team's deafult.
 
 <center>
-  <img src="https://i.imgur.com/Thdzqde.png" width="500" alt="set default"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--set-default.png" width="500" alt="set default"/>
 </center>
 <br/>
 
@@ -65,7 +65,7 @@ If you stop the deployment and start another one with the same name, this comman
 
 ##### Extra Space
 
-Every deployment on Tenzar comes with a minimum of 20 GB free disk space. For example, if my image is 5 GB and my volumes total 30 GB, the deployment will start with at least 55 GB of disk space, allowing me 20 GB to use. 
+Every deployment on Tenzar comes with a minimum of 20 GB free disk space. For example, if my image is 5 GB and my volumes total 30 GB, the deployment will start with at least 55 GB of disk space, allowing me 20 GB to use.
 
 If I want more than 20 GB, I can enter what I need in the 'Extra Space' field. In this case I'll have a total of 170 GB free - 150 GB 'extra'.
 
@@ -79,12 +79,12 @@ Once you click 'Deploy', the preview will confirm what you're about to do. Use t
 2. Container runtime
 3. Storage costs
 
-Prices for these can be seen on the [Pricing page](https://tenzar.com/docs/reference/pricing). Note that even though the container runtime price is included in this number, it will not be billed until your deployment is running and ready to use.
+Prices for these can be seen on the [Pricing page](/pricing). Note that even though the container runtime price is included in this number, it will not be billed until your deployment is running and ready to use.
 
 Finally, 'Approximate setup time' is our estimate for how long it will take your deployment to launch. It's a function of how long is typically takes to spin up and instance plus the time it should take to transfer your data and run the container.
 
 <center>
-  <img src=https://i.imgur.com/yjrRoDi.png" width="300" alt="import from url"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--preview-launch.png" width="300" alt="preview deployment"/>
 </center>
 <br/>
 
@@ -93,16 +93,16 @@ Finally, 'Approximate setup time' is our estimate for how long it will take your
 Once you click 'Deploy' on the preview pane, you'll be taken to the Deployments page. You can also see this information in the terminal by typing `tt monitor`.
 
 <center>
-  <img src=https://i.imgur.com/DUpVojK.png" width="500" alt="import from url"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--deployments.png" width="500" alt="deployments"/>
 </center>
 <br/>
 
-This page will monitor the progress of your deployment. It automatically refreshes so you can keep the page open and watch the status. 'Pending' means we're spinning up an instance in the cloud, 'provisioning' means we're transferring your data and configuring your containers, and finally 'running' means the deployment is booted up and ready to use. 
+This page will monitor the progress of your deployment. It automatically refreshes so you can keep the page open and watch the status. 'Pending' means we're spinning up an instance in the cloud, 'provisioning' means we're transferring your data and configuring your containers, and finally 'running' means the deployment is booted up and ready to use.
 
-Clicking on the deployment in this window will bring up some information about it. 'Cost' updates in real time and will tell you the total cost of the deployment for the time it's been running. 
+Clicking on the deployment in this window will bring up some information about it. 'Cost' updates in real time and will tell you the total cost of the deployment for the time it's been running.
 
 <center>
-  <img src=https://i.imgur.com/1xftC9i.png" width="150" alt="import from url"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--deployments-siderbar.png" width="150" alt="sidebar"/>
 </center>
 <br/>
 
@@ -119,10 +119,10 @@ Once your deployment is in the 'running' state, you can connect to it from the T
 
 ##### Destroy
 
-When you're done with your deployment and you've saved the files you need, click 'Destroy' on the dashboard to terminate your instance (you'll be prompted to confirm first). You will no longer be charged for a deployment once you destroy it. 
+When you're done with your deployment and you've saved the files you need, click 'Destroy' on the dashboard to terminate your instance (you'll be prompted to confirm first). You will no longer be charged for a deployment once you destroy it.
 
 <center>
-  <img src=https://i.imgur.com/iBm2KiT.png" width="500" alt="import from url"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--destroy.png" width="500" alt="destroy deployment/>
 </center>
 <br/>
 
