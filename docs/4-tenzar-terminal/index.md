@@ -1,4 +1,4 @@
-### Tenzar Terminal
+### Tenzar Terminal (Command Line Interface)
 
 #### Installing
 Click [here](https://dx.tenzar.com/install) to download and install the Tenzar Terminal or visit the [installation page](/docs/cli/install).
