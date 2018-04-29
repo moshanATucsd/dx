@@ -1,3 +1,16 @@
+<style scoped>
+  .pricing-arch {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 992px) {
+      .arch-image {
+          width: 95%;
+      }
+  }
+  </style>
+
 ### Tenzar DX Pricing
 
 DX offers pay-as-you-go pricing. With DX, you pay only for your team's utilization and consumption of DX services. DX pricing is similar to how you pay for utilities like water or electricity; you only pay for the resources you consume, and once you stop using them, there are no additional costs or termination fees.
@@ -6,7 +19,9 @@ DX offers pay-as-you-go pricing. With DX, you pay only for your team's utilizati
 
 The following diagram displays DX's pricing components:
 
-[image of pricing]
+<center>
+  <img class="pricing-arch" src="https://s3.amazonaws.com/assets.tenzar.com/docs/pricing-arch.png" width="600"/>
+</center>
 
 ---
 
