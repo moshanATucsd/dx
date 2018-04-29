@@ -6,16 +6,16 @@ This walkthrough will cover the details of deployments on Tenzar. You can follow
 
 A deployment is an ephemeral instance ("a server") in the cloud that you use to run your workload. When you launch a deployment on Tenzar DX, the Tenzar Engine will do the following automatically:
 
-1. Spin up a Virtual Private Server (VPS) on a cloud infrastructure provider
-2. Configure compute, storage, security settings and more
-3. Transfer your image and volumes to the instance
-4. Run your image as a Docker container on the deployment
-5. Enable SSH so you can easily connect to the deployment
+1.  Spin up a Virtual Private Server (VPS) on a cloud infrastructure provider
+2.  Configure compute, storage, security settings and more
+3.  Transfer your image and volumes to the instance
+4.  Run your image as a Docker container on the deployment
+5.  Enable SSH so you can easily connect to the deployment
 
 To launch a deployment, first go to the console in your Dashboard. This tutorial will explain each line of the deployment form.
 
 <center>
-  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--import-from-url.png" width="450" alt="import from url"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--deploy.png" width="450" alt="deploy"/>
 </center>
 <br/>
 
@@ -46,7 +46,6 @@ When you don't need a GPU, the Compute instances offer the highest performance p
 
 You can see a breakdown of all our instance offerings on the Instance Types page.
 
-
 ##### Volumes
 
 Here I specify the exact Volumes I want to use in my computation. I imported the Tensorflow models file from [Github](https://github.com/tensorflow/models) (you can click 'Clone or download' and 'download ZIP' to get the link to import) and an image recognition dataset from the [Caltech Vision webpage](http://www.vision.caltech.edu/Image_Datasets/Caltech101/). I'm also including a folder of images that I uploaded through the terminal.
@@ -75,9 +74,9 @@ Once you click 'Deploy', the preview will confirm what you're about to do. Use t
 
 'Total Data Size' denotes the total size of the images and volumes you're deploying with. 'Disk Space' is the amount of storage we'll provision. And finally, 'Price' is the cost per minute to run your deployment. It is the sum of a few parameters:
 
-1. Instance price
-2. Container runtime
-3. Storage costs
+1.  Instance price
+2.  Container runtime
+3.  Storage costs
 
 Prices for these can be seen on the [Pricing page](/pricing). Note that even though the container runtime price is included in this number, it will not be billed until your deployment is running and ready to use.
 
@@ -105,7 +104,6 @@ Clicking on the deployment in this window will bring up some information about i
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--deployments-sidebar.png" width="150" alt="sidebar"/>
 </center>
 <br/>
-
 
 ##### Connect
 
