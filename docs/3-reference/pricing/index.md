@@ -1,6 +1,6 @@
 ### Tenzar DX Pricing
 
-DX offers a pay-as-you-go approach for pricing. With DX you pay only for your team's utilization and consumption of DX's services. DX pricing is similar to how you pay for utilities like water or electricity. You only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees.
+DX offers pay-as-you-go pricing. With DX, you pay only for your team's utilization and consumption of DX services. DX pricing is similar to how you pay for utilities like water or electricity; you only pay for the resources you consume, and once you stop using them, there are no additional costs or termination fees.
 
 
 #### Pricing Architecture
@@ -10,9 +10,22 @@ The following diagram displays DX's pricing components:
 [image of pricing]
 
 
+#### Free Tier
+
+Tenzar DX offers a level of free storage, throughput, and compute so you can try out DX at no charge. As long as you stay within the free tier, you won't pay anything. 
+
+The free tier offers:
+* 1 GB storage for images
+* 1 GB storage for volumes
+* 1 GB data throughput
+* 1000 minutes of compute time with E1 instances
+
+You'll only be billed for usage above the free tier; for example if you use 2 GB of throughput, you'll only be billed for 1 GB.
+
+
 #### Storage Pricing
 
-You can store as much data as you would like in DX and you only pay for the amount of GBs your volumes and images use. Storage is prorated by the hour and billed per month.
+DX offers unlimited data storage - and you only pay for the storage that your volumes and images use. Storage is prorated by the hour and billed per month.
 
 |Storage | Per GB / month |
 |--------|-------|
@@ -25,7 +38,7 @@ Your first 1 GB of storage is always free.
 
 #### Smart Data Throughput Pricing
 
-Smart Data throughput is calculated as the amount of new data that you move into, out of, and through DX. There are no limits for data throughput. Smart Data throughput is calculated per GB and billed per month. Sharing and importing data with other Tenzar DX accounts does not count towards billable throughput, since it's already within Tenzar DX.
+Smart Data throughput is calculated as the amount of new data that you move into, out of, and through DX. There are no limits for data throughput. Smart Data throughput is calculated per GB and billed per month. Sharing and importing data from other Tenzar DX accounts does not count towards billable throughput, since the data is already on Tenzar DX.
 
 Repeated uploads or imports with the same data are automatically detected and not counted towards your Smart Data Throughput. 
 
@@ -91,12 +104,10 @@ When you create your Tenzar DX account, you get 1 GB of data throughput credit a
 
 <br/>
 
-When you create your Tenzar DX account, you get 1,000 minutes of compute credit towards E1 type instances.
-
-For example: you can use up to 1,000 minutes of compute time at no cost to run any number of E1 instances. Other instance types are not included in your free 1,000 compute minutes and are therefore billed at their current rate.
+When you create your Tenzar DX account, you get 1,000 minutes of compute credit towards E1 type instances. You can use up to 1,000 minutes of compute time at no cost to run any number of E1 instances. Other instance types are not included in your free 1,000 compute minutes and are billed at the rates you see above.
 
 #### Computing Disk Space Pricing
-Each instance includes a default 20 GB of available disk space in addition to the disk space consumed by the included data in your deployment such as your image and volume. If you plan on utilizing more than the available 20GB of free disk space in your instance, you can add up to 1 TB of extra disk space to your instance. Disk space is billed per GB per minute for the duration of your deployment.
+Each instance includes a default 20 GB of available disk space in addition to the disk space consumed by the image and volume data in your deployment. If you plan on utilizing more than the available 20GB of free disk space in your instance, you can add up to 1 TB of extra disk space to your instance. Disk space is billed per GB per minute for the duration of your deployment.
 
 
 |Disk Space | Per GB / MIN |
@@ -108,7 +119,7 @@ When you create your Tenzar DX account, you get 1,000 minutes of computing disk 
 
 #### Container Runtime Pricing
 
-Tenzar DX automatically deploys, runs, and orchestrates your Docker containers ("environments") on top of your instances. Container runtime cost is calculated based on the amount of CPUs, Memory, and GPUs of your instance and is billed per minute for the duration your instance *running*. That is, your container runtime billing does not include the time it takes for your instance to launch and create, only from the moment is ready for use ("running") to the moment you destroy it.
+Tenzar DX automatically deploys, runs, and orchestrates your Docker containers ("environments") on top of your instances. Container runtime cost is calculated based on the amount of CPUs, Memory, and GPUs of your instance and is billed per minute for the duration that your instance is *running*. That is, your container runtime billing does not include the time it takes for your instance to launch and create, it is only billed from the moment is ready for use ("running") to the moment you destroy it.
 
 ###### Container Runtime
 | Per CPU / MIN | Per GB Memory / MIN | Per GPU / MIN |
@@ -117,8 +128,7 @@ Tenzar DX automatically deploys, runs, and orchestrates your Docker containers (
 
 <br/>
 
-For example: running your container on an E1 instance with 2 CPUs and 4 GBs of memory, would be charged as: (2CPUs X 0.07¢) + (4GBsMemory X 0.01¢) + (0GPUs X 0.7¢) = 0.18¢ per minute for the container runtime. The cost of the instance is not included in the container runtime.
-
+For example: running your container on an E1 instance with 2 CPUs and 4 GBs of memory would be charged as: (2CPUs X 0.07¢) + (4GBsMemory X 0.01¢) + (0GPUs X 0.7¢) = 0.18¢ per minute for the container runtime. The cost of the instance is not included in the container runtime.
 
 When you create your Tenzar DX account, you get 1,000 minutes of container runtime credit towards E1 type instances.
 
@@ -141,4 +151,4 @@ Tenzar DX enables you to run up to 64 instances simultaneously across your entir
 
 For example: if there is only one instance running at any given time, your concurrency is one and a concurrency fee does not apply. Say that you would now like to deploy an additional instance of type S1 *while* the initial instance is still on. In such case, your concurrency would increase to two, and a concurrency fee is applied to your second deployment. Since you deployed an S1 instance with 4 CPUs and 16 GB Memory, the concurrency fee would be calculated as: (4CPUs X $1) + (16GBs X $1) = $YYY.
 
-Note that a concurrency fee is transactional, which means it is charged once when you launch your second instance, and it is not a per minute fee. If you need to deploy an additional instance while your two instances are running, your concurrency would increase to three and a concurrency charge would be calculated for that deployment.
+Note that a concurrency fee is transactional, which means it is charged once when you launch a second instance, and it is not a per minute fee. If you need to deploy an additional instance while your two instances are running, your concurrency would increase to three and a similar concurrency fee would be charged for that deployment.
