@@ -7,12 +7,12 @@ This walkthrough will cover the details of deployments on Tenzar. You can follow
 A deployment is an ephemeral instance ("a server") in the cloud that you use to run your workload. When you launch a deployment on Tenzar DX, the Tenzar Engine will do the following automatically:
 
 1. Spin up a Virtual Private Server (VPS) on a cloud infrastructure provider
-2. Configure AMIs, storage, security settings and more
+2. Configure compute, storage, security settings and more
 3. Transfer your image and volumes to the instance
-4. Run your image as a docker container with volumes attached
+4. Run your image as a Docker container on the deployment
 5. Enable SSH so you can easily connect to the deployment
 
-To launch a deployment, first go to the console in your dashboard. This tutorial will explain each line of the deployment form.
+To launch a deployment, first go to the console in your Dashboard. This tutorial will explain each line of the deployment form.
 
 <center>
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--import-from-url.png" width="450" alt="import from url"/>
@@ -27,11 +27,11 @@ $ tt deploy --image tensorflow-gpu --type GC1 --name image-rec --storage 150 101
 
 ##### Image
 
-This is the underlying operating system that your deployment will run. You can only select one image and it can not be changed once the deployment is launched.
+This is the underlying operating system that your deployment will run. You can only select one image and it cannot be changed once the deployment is launched.
 
-I want to run a Tensorflow model on a GPU instance, so I'm going to select the `tensorflow-gpu` image that I imported from `tensorflow/tensorflow:latest-gpu`. Only images that were built for GPUs will be able to access the GPU resources of an instance. Most popular computing frameworks already have gpu-enabled images on dockerhub. If you need to use an image that does not come with GPU drivers preinstalled, you'll have to install nvidia-smi on the instance if you want to access GPU resources.
+I want to run a Tensorflow model on a GPU instance, so I'm going to select the `tensorflow-gpu` image that I imported from `tensorflow/tensorflow:latest-gpu`. Only images that were built for GPUs will be able to access the GPU resources of an instance. Most popular computing frameworks already have gpu-enabled images on DockerHub. If you need to use an image that does not come with GPU drivers preinstalled, you'll have to install nvidia-smi on the instance if you want to access GPU resources.
 
-You can also select a default image on the Images page in the dashboard. A default image is 'preselected' to run your deployments in the future. This is purely for convenience and the image can always be changed before deploying. Simply click the menu icon next to the image you want to set as default. A star will appear next to the image name to indicate it's my team's deafult.
+You can also select a default image on the images page in the Dashboard. A default image is 'preselected' to run your deployments in the future. This is purely for convenience and the image can always be changed before deploying. Simply click the menu icon next to the image you want to set as default. A star will appear next to the image name to indicate it's my team's default.
 
 <center>
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--set-default.png" width="500" alt="set default"/>
@@ -102,7 +102,7 @@ This page will monitor the progress of your deployment. It automatically refresh
 Clicking on the deployment in this window will bring up some information about it. 'Cost' updates in real time and will tell you the total cost of the deployment for the time it's been running.
 
 <center>
-  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--deployments-siderbar.png" width="150" alt="sidebar"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--deployments-sidebar.png" width="150" alt="sidebar"/>
 </center>
 <br/>
 

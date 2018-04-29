@@ -55,9 +55,12 @@ For this example, you will launch an E1 instance. To deploy it, go to **Console*
 <center>
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/tutorial-deploy.png" width="500" alt="launch deployment"/>
 </center>
+
 <br/>
+<br/>
+
 <center>
-  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/tutorial-preview-deploy.png" width="500" alt="preview deployment"/>
+  <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/tutorial-preview-deploy.png" width="300" alt="preview deployment"/>
 </center>
 <br/>
 
