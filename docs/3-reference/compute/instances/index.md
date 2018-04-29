@@ -2,7 +2,7 @@
 ### Tenzar DX Instances
 
 Tenzar DX supports various classes of instances to deploy and run workloads.
-You can refer to an instance by it's name, for example: `s2` or `S2` to begin using it. 
+When deploying in Tenzar Terminal you can refer to an instance type by it's name, for example: `s2` or `S2`. 
 
 Instance specs and details can be found in the [Instance Types](https://dx.tenzar.com/computing) dashboard.
 
