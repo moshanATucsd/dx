@@ -119,7 +119,7 @@ Once your deployment is in the 'running' state, you can connect to it from the T
 
 ##### Destroy
 
-When you're done with your deployment and you've saved the files you need, click 'Destroy' on the dashboard to terminate your instance (you'll be prompted to confirm first). You will no longer be charged for a deployment once you destroy it.
+When you're done with your deployment and you've saved the files you need, click 'Destroy' on the Dashboard to terminate your instance (you'll be prompted to confirm first). You will no longer be charged for a deployment once you destroy it.
 
 <center>
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--destroy.png" width="500" alt="destroy deployment/>
