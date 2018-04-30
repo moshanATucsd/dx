@@ -4,22 +4,20 @@ You can use Tenzar DX through the Web Dashboard and the Tenzar Terminal command 
 
 ##### In this tutorial you will learn how to:
 
-1. Navigate the Dashboard
-2. Import a file from the internet
-3. Import a public Docker image, and
-4. Launch and destroy instance
-
+1.  Navigate the Dashboard
+2.  Import a file from the internet
+3.  Import a public Docker image, and
+4.  Launch and destroy instance
 
 #### Log in to your account
+
 Go to [dx.tenzar.com](https://dx.tenzar.com) or click on the top right Dashboard link to log in.
 
 Login with your account ID, username, and password.
 
-
 ##### Import a file from the internet
 
 Volumes are the files and folders you upload or import to DX. Let's say you'd like to import a small dataset from the [UCI](http://archive.ics.uci.edu/ml/index.php) Machine Learning repository that is available at: http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
-
 
 To import this file from the internet into your volumes, go to **Console** > **Import**, select **As Volume** and paste the URL.
 
@@ -31,7 +29,6 @@ To import this file from the internet into your volumes, go to **Console** > **I
 Then give your volume a name like `iris-data` (remember that volume names can't contain spaces) and click import.
 
 You will see that the file has now been imported and added to your volumes.
-
 
 ##### Import from Docker
 
@@ -66,18 +63,16 @@ For this example, you will launch an E1 instance. To deploy it, go to **Console*
 
 Click deploy to launch your instance!
 
-> This tutorial will consume about 6 minutes of your 1,000 free-tier computing minutes. Don't forget to stop and destroy your instance.
+> This tutorial will consume about 6 minutes of your 1,000 Free Tier computing minutes. Don't forget to stop and destroy your instance.
 
 Launching an instance takes about five minutes as it boots up a dedicated instance, prepares your environment, and adds your data. When it's ready for use, its status will show to `Running`
 
 <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/instance-running-status.png" width="100" alt="running instance"/>
 <br/>
 
-
 #### Destroying your instance
 
 Now that you've seen how easy it is to launch an instance with data and a computing environment, you can destroy it.
-
 
 <center>
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/instance-destroy.png" width="500" alt="destroy instance"/>
