@@ -1,6 +1,6 @@
 ### Deploy on Tenzar DX
 
-This walkthrough will cover the details of deployments on Tenzar DX. You can follow along from your Dashboard. This assumes you've already walked through the [Getting Started](/docs/tutorials/get-started) and ]Tenzar Terminal](/docs/tutorials/tenzar-terminal) tutorials.
+This walkthrough will cover the details of deployments on Tenzar DX. You can follow along from your Dashboard. This assumes you've already walked through the [Getting Started](/docs/tutorials/get-started) and [Tenzar Terminal](/docs/tutorials/tenzar-terminal) tutorials.
 
 #### Deployment basics
 
@@ -31,7 +31,7 @@ You can only select one image and it cannot be changed after the deployment is l
 
 In this example, we want to run a Tensorflow model on a GPU instance, so we are going to select the `tensorflow-gpu` image that can be imported from [`tensorflow/tensorflow:latest-gpu`](https://hub.docker.com/r/tensorflow/tensorflow/) DockerHub repository. Remember that when you want to run on a GPU instance like the GC1, your image has to be built for NVIDIA GPUs with CUDA drivers and nvidia-smi. In this case, the official `tensorflow/tensorflow:latest-gpu` already comes with such GPU compatibility. You should verify that you are using a GPU compatible image by running `$ nvidia-smi` once you connect to your deployment.
 
-> Pro tip: if you or your organization plan on frequently using the same image, you can click on **Images** > **Select your instance** and **Set as default**.
+> Pro tip: if you or your organization plan on frequently using the same image, you can set it as your default. Click on **Images**, select your image and choose **Set as default**.
 
 <center>
   <img src="https://s3.amazonaws.com/assets.tenzar.com/docs/deploy--set-default.png" width="500" alt="set default"/>
@@ -99,7 +99,7 @@ Clicking on the deployment in this window will bring up some information about i
 
 ##### Connect to your deployment
 
-Once your deployment is in the `Running` state, we can connect to it from the Tenzar Terminal. Now that we have a name for the deployment we can connect to it in three ways:
+Once your deployment is in the `Running` state, we can connect to it from the Tenzar Terminal. Because we have a name for the deployment we can connect to it in three ways:
 
 `tt connect` if this is your only running deployment
 
