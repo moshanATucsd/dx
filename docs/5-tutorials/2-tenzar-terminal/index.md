@@ -1,18 +1,6 @@
-### Usage 101: Tenzar Terminal
+### Tenzar Terminal Tutorial
 
-<i>The following tutorial teaches you how to use the Tenzar Terminal on macOS or Linux computers. Click [here](https://dx.tenzar.com/install) to download and install Tenzar Terminal.</i>
-
-This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars.
-
-All commands in the Tenzar Terminal have the following structure:
-
-<img src="https://assets.tenzar.com/app/img-commands.png" alt="Command" width="100%" style="border-radius: 3px; margin-bottom: 20px">
-
-- Angle brackets `< >` indicate required parameters.
-- Square brackets `[ ]` indicate optional parameters.
-- Single dash `-` indicates shorthand options.
-- Double dashes `--` indicate long form options.
-
+This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars. Before you begin, make sure you've [installed Tenzar Terminal](https://tenzar.com/docs/cli/install)
 
 #### Login
 

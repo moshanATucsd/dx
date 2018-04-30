@@ -20,7 +20,7 @@ Deployments are ephemeral. By 'ephemeral' we mean that the mounted volumes, memo
 
 
 #### Usage
-```bash
+```text
 tt deploy
 # or
 tt deploy myVolume
