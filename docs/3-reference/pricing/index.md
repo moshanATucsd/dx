@@ -36,7 +36,7 @@ The free tier offers:
 * 1 GB Smart Data Throughput
 * 1,000 minutes of compute time and container runtime with E1 instances
 
-You'll only be billed for usage above the free tier; for example if you use 2 GB of throughput, you'll only be billed for 1 GB.
+You'll only be billed for usage above the free tier; for example if you use 2 GB of volume storage, you'll only be billed for 1 GB.
 
 ---
 
@@ -46,24 +46,24 @@ DX offers unlimited data storage - and you only pay for the storage that your vo
 
 | Storage                   | Per GB / month |
 | ------------------------- | -------------- |
-| For all files and folders | $              |
-| For all Docker images     | $              |
+| For all files and folders | $0.023         |
+| For all Docker images     | $0.096         |
 
 <br/>
 
-**Free Tier:** Your first 1 GB of volume storage and your first 1GB of image storage is always free.
+**Free Tier:** Your first 1 GB of volume storage and your first 1 GB of image storage is always free.
 
 ---
 
 #### Smart Data Throughput Pricing
 
-Smart Data throughput is calculated as the amount of new data that you move into, out of, and through DX. There are no limits for data throughput. Smart Data throughput is calculated per GB and billed per month. Sharing volumes and images to other Tenzar DX accounts does not count towards billable throughput.
+Smart Data Throughput is calculated as the amount of new data that you move into, out of, and through DX. There are no limits for data throughput. Smart Data Throughput is calculated per GB and billed per month. Sharing volumes and images to other Tenzar DX accounts does not count towards billable throughput.
 
 Repeated uploads or imports with the same data are automatically detected and not counted towards your Smart Data Throughput.
 
-| Smart Data Throughput     | Per GB |
-| ------------------------- | ------ |
-| Unlimited data throughput | $      |
+| Smart Data Throughput | Per GB |
+| --------------------- | ------ |
+| Unlimited             | $0.045 |
 
 <br/>
 
@@ -77,53 +77,53 @@ Repeated uploads or imports with the same data are automatically detected and no
 
 ###### Entry Instances
 
-| Instance | CPUs | Memory | Price / MIN |
-| -------- | ---- | ------ | ----------- |
-| E1       | 2    | 4 GB   | 0.2¢        |
+| Instance | CPUs | Memory | Per / min |
+| -------- | ---- | ------ | --------- |
+| E1       | 2    | 4 GB   | $0.002    |
 
 <br/>
 
 ###### Standard Instances
 
-| Instance | CPUs | Memory | Price / MIN |
-| -------- | ---- | ------ | ----------- |
-| S1       | 4    | 16 GB  | 0.4¢        |
-| S2       | 8    | 32 GB  | 0.7¢        |
-| S4       | 16   | 64 GB  | 1.4¢        |
-| S10      | 40   | 160 GB | 3.4¢        |
-| S16      | 64   | 256 GB | 5.4¢        |
+| Instance | CPUs | Memory | Per / min |
+| -------- | ---- | ------ | --------- |
+| S1       | 4    | 16 GB  | $0.004    |
+| S2       | 8    | 32 GB  | $0.007    |
+| S4       | 16   | 64 GB  | $0.014    |
+| S10      | 40   | 160 GB | $0.034    |
+| S16      | 64   | 256 GB | $0.054    |
 
 <br/>
 
 ###### Compute Instances
 
-| Instance | CPUs | Memory | Price / MIN |
-| -------- | ---- | ------ | ----------- |
-| C1       | 4    | 7.5 GB | 0.4¢        |
-| C2       | 8    | 15 GB  | 0.7¢        |
-| C4       | 16   | 30 GB  | 1.4¢        |
-| C8       | 36   | 60 GB  | 2.7¢        |
+| Instance | CPUs | Memory | Per / min |
+| -------- | ---- | ------ | --------- |
+| C1       | 4    | 7.5 GB | $0.004    |
+| C2       | 8    | 15 GB  | $0.007    |
+| C4       | 16   | 30 GB  | $0.014    |
+| C8       | 36   | 60 GB  | $0.027    |
 
 <br/>
 
 ###### GPU Instances
 
-| Instance | CPUs | Memory | GPUs | Price / MIN |
-| -------- | ---- | ------ | ---- | ----------- |
-| GC1      | 4    | 61 GB  | 1    | 1.5¢        |
-| GC8      | 32   | 488 GB | 8    | 12.0¢       |
+| Instance | CPUs | Memory | GPUs | Per / min |
+| -------- | ---- | ------ | ---- | --------- |
+| GC1      | 4    | 61 GB  | 1    | $0.015    |
+| GC8      | 32   | 488 GB | 8    | $0.120    |
 
 <br/>
 
 ###### Memory Instances
 
-| Instance | CPUs | Memory  | Price / MIN |
-| -------- | ---- | ------- | ----------- |
-| M1       | 4    | 30.5 GB | 0.5¢        |
-| M2       | 8    | 61 GB   | 0.9¢        |
-| M4       | 16   | 122 GB  | 1.8¢        |
-| M8       | 32   | 244 GB  | 3.6¢        |
-| M16      | 64   | 488 GB  | 7.1¢        |
+| Instance | CPUs | Memory  | Per / min |
+| -------- | ---- | ------- | --------- |
+| M1       | 4    | 30.5 GB | $0.005    |
+| M2       | 8    | 61 GB   | $0.009    |
+| M4       | 16   | 122 GB  | $0.018    |
+| M8       | 32   | 244 GB  | $0.036    |
+| M16      | 64   | 488 GB  | $0.071    |
 
 <br/>
 
@@ -131,13 +131,13 @@ Repeated uploads or imports with the same data are automatically detected and no
 
 ---
 
-#### Computing Disk Space Pricing
+#### Disk Space Pricing
 
 Each instance includes a default 20 GB of available disk space in addition to the disk space consumed by the image and volume data in your deployment. If you plan on utilizing more than the available 20GB of free disk space in your instance, you can add up to 1 TB of extra disk space to your instance. Disk space is billed per GB per minute for the duration of your deployment.
 
-| Disk Space | Per GB / MIN |
+| Disk Space | Per GB / min |
 | ---------- | ------------ |
-| Up to 1 TB | $            |
+| Up to 1 TB | $0.0000025   |
 
 **Free Tier:** When you create your Tenzar DX account, you get 1,000 minutes of computing disk space credit towards E1 type instances.
 
@@ -149,13 +149,13 @@ Tenzar DX automatically deploys, runs, and orchestrates your Docker containers (
 
 ###### Container Runtime
 
-| Container Runtime | Per CPU / MIN | Per GB Memory / MIN | Per GPU / MIN |
+| Container Runtime | Per CPU / min | Per GB Memory / min | Per GPU / min |
 | ----------------- | ------------- | ------------------- | ------------- |
-|                   | $             | $                   | $             |
+|                   | $0.0007       | $0.0001             | $0.007        |
 
 <br/>
 
-For example: running your container on an E1 instance with 2 CPUs and 4 GBs of memory would be charged as: (2CPUs X 0.07¢) + (4GBsMemory X 0.01¢) + (0GPUs X 0.7¢) = 0.18¢ per minute for the container runtime. The cost of the instance is not included in the container runtime.
+**For example:** running your container on an E1 instance with 2 CPUs and 4 GBs of memory would be charged as: (2CPUs X 0.07¢) + (4GBsMemory X 0.01¢) + (0GPUs X 0.7¢) = 0.18¢ per minute for the container runtime. The cost of the instance is not included in the container runtime.
 
 **Free Tier:** When you create your Tenzar DX account, you get 1,000 minutes of container runtime credit towards E1 type instances.
 
@@ -174,8 +174,12 @@ Tenzar DX enables you to run up to 64 instances simultaneously across your entir
 
 | Deployment Concurrency Fee | Per CPU | Per GB Memory | Per GPU |
 | -------------------------- | ------- | ------------- | ------- |
-|                            | $       | $             | $       |
+|                            | $0.035  | $0.007        | $0.10   |
 
-For example: if there is only one instance running at any given time, your concurrency is one and a concurrency fee does not apply. Say that you would now like to deploy an additional instance of type S1 _while_ the initial instance is still on. In such case, your concurrency would increase to two, and a concurrency fee is applied to your second deployment. Since you deployed an S1 instance with 4 CPUs and 16 GB Memory, the concurrency fee would be calculated as: (4CPUs X $1) + (16GBs X $1) = $YYY.
+**For example:** If there is only one instance running at any given time, your concurrency is one and a concurrency fee does not apply. Say that you would now like to deploy an additional instance of type S1 _while_ the initial instance is still on. In such case, your concurrency would increase to two, and a concurrency fee is applied to your second deployment. Since you deployed an S1 instance with 4 CPUs and 16 GB Memory, the concurrency fee would be calculated as: (4CPUs \* $0.035) + (16GBs \* $0.007) = $0.252.
 
 Note that a concurrency fee is transactional, which means it is charged once when you launch a second instance, and it is not a per minute fee. If you need to deploy an additional instance while your two instances are running, your concurrency would increase to three and a similar concurrency fee would be charged for that deployment.
+
+---
+
+<small>All GB references are in GiB and are equal to 2^30 bytes.</small>
