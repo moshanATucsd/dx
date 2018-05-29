@@ -79,4 +79,4 @@ Now that you've seen how easy it is to launch an instance with data and a comput
 </center>
 <br/>
 
-Usually before destroying an instance, we would have connected, and ran a workload a few times, and then destroyed it. However, connecting to your instance requires the Tenzar Terminal and is part of [tutorial](/docs/tutorial/tenzar-terminal).
+Usually before destroying an instance, we would have connected, and ran a workload a few times, and then destroyed it. However, connecting to your instance requires the Tenzar Terminal and is part of another [tutorial](/docs/tutorials/tenzar-terminal).

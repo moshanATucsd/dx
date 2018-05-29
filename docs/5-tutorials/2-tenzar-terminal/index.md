@@ -1,6 +1,6 @@
 ### Tenzar Terminal Tutorial
 
-This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars. Before you begin, make sure you've [installed Tenzar Terminal](https://tenzar.com/docs/cli/install)
+This 101 guide will walk through the basic end-to-end usage of the Tenzar Terminal using a computer vision example in the context of self driving cars. Before you begin, make sure you've [installed Tenzar Terminal](https://tenzar.com/docs/cli/install).
 
 #### Login
 
@@ -27,12 +27,12 @@ $ tt import tenzardockerhub/tutorial:selfdriving --name tenzar-tutorial
 
 This imports the DockerHub image with the name 'tenzar-tutorial' into your account. Note that while you are importing an image from the [tenzardockerhub](https://hub.docker.com/r/tenzardockerhub) public account in this example, you are also able to import any other public image from any other DockerHub account. Since imports take a few minutes, in the meantime, let's take a look at volumes.
 
-
 #### Volumes
 
 To follow along, download the following examples files and put them in your Desktop:
-- [selfdriving.zip](https://assets.tenzar.com/app/selfdriving.zip): a Python program for performing car lane detection.
-- [video.mp4](https://assets.tenzar.com/app/video.mp4): a sample driving footage that we will as our data to run the model on.
+
+* [selfdriving.zip](https://assets.tenzar.com/app/selfdriving.zip): a Python program for performing car lane detection.
+* [video.mp4](https://assets.tenzar.com/app/video.mp4): a sample driving footage that we will as our data to run the model on.
 
 Feel free to watch the video to get a feel of what we are going to be working with.
 
@@ -69,7 +69,6 @@ $ tt volumes
   video.mp4             | 1 minute ago   | 14.39 MiB
 ```
 
-
 #### Deploy
 
 By now, your import of the tenzar-tutorial image should be complete. To view your images and pending imports, run:
@@ -102,7 +101,6 @@ $ tt monitor
 
 During this process, your image and volume(s) are being initialized and copied onto the instance for use. Check back in 5 - 10 minutes and your deployment should be up and running. Note: the time needed to boot-up the deployment depends on the size of your volume(s) and type of instance.
 
-
 #### Connect
 
 Once your deployment is in the `Running` state, you are ready to connect to it using its ID. Run the following command, making sure to replace the ID with what's listed under your `tt monitor` command (or just the first unique characters).
@@ -118,6 +116,7 @@ You can find the volumes that you added to the deployment under the `/tenzar_vol
 ```text
 root@78a8675cb3e9:/ cd /tenzar_volumes/
 ```
+
 **Hint:** you are connected to an instance when your terminal prompt begins with `root@`.
 
 The program we want to run is located in the `selfdriving` directory. To execute this specific code, we pass in the sample video footage as an input file and an output file to see the results:
@@ -125,8 +124,8 @@ The program we want to run is located in the `selfdriving` directory. To execute
 ```bash
 root@cc99b263ea7f:/ python selfdriving/pipeline.py video.mp4 results.mp4
 ```
-This starts the computer vision model, which takes a few seconds to run. When it completes, it creates the results.mp4 file within the same directory.
 
+This starts the computer vision model, which takes a few seconds to run. When it completes, it creates the results.mp4 file within the same directory.
 
 #### Save
 
@@ -148,7 +147,6 @@ $ tt volumes
   results.mp4           | 7 seconds ago  | 14.36 MiB
 ```
 
-
 #### Download
 
 You can download this volume to your computer with:
@@ -161,7 +159,6 @@ By default, the results.mp4 file is downloaded into your Downloads folder.
 
 You can now open the video and see the results of the lane finding program.
 
-
 #### Destroy
 
 When you are finished with your computations, destroy your deployment:
@@ -170,8 +167,7 @@ When you are finished with your computations, destroy your deployment:
 $ tt destroy 78a8675cb3e9
 ```
 
-Deployments are meant to be temporary or ("*ephemeral*"): Once you are done using them, you save the data you need, and then you destroy them. You can easily relaunch and reproduce your deployment at any time.
-
+Deployments are meant to be temporary or ("_ephemeral_"): Once you are done using them, you save the data you need, and then you destroy them. You can easily relaunch and reproduce your deployment at any time.
 
 #### Conclusion
 
