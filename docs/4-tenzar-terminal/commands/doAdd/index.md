@@ -6,12 +6,13 @@ Adds a volume to a running deployment.
 
 #### Parameters
 
-| Flag, Name   | Description                              | Required |
-| ------------ | ---------------------------------------- | -------- |
-| `ID`         | Deployment ID displayed in `tt monitor`. | ✓        |
-| `volume`     | Name of volume to add.                   | ✓        |
+| Flag, Name | Description                              | Required |
+| ---------- | ---------------------------------------- | -------- |
+| `ID`       | Deployment ID displayed in `tt monitor`. | ✓        |
+| `volume`   | Name of volume to add.                   | ✓        |
 
 #### Usage
+
 ```bash
 tt do 8620df57eb72 add myVolume
 # or
